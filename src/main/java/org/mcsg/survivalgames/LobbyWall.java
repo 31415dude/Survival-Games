@@ -59,7 +59,7 @@ public class LobbyWall {
         if (dir == 3 || dir == 5) {
             Collections.reverse(signs);
         }
-        addMsg("SurvivalGames");
+        addMsg("Quick PvP");
         addMsg("Double0negative");
         addMsg("mc-sg.org");
         addMsg("Game id: " + gameid);
@@ -85,7 +85,7 @@ public class LobbyWall {
         Sign s1 = signs.get(1);
 
         //sign 0
-        s0.setLine(0, "[SurvivalGames]");
+        s0.setLine(0, "[Quick PvP]");
         s0.setLine(1, "Click to join");
         s0.setLine(2, "Arena " + gameid);
 
